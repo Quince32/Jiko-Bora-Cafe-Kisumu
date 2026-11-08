@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Added fonts -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact | Jiko Bora Cafe</title>
-        <link rel="stylesheet"href="css/style.css">
-        <script src="js/script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+        <title>Jiko Bora Cafe</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header>
@@ -30,6 +34,18 @@
         <li>Email: <a href="mailto:hello@jikobora.example">hello@jikobora.example</a></li>
         <li>Hours: Mon to Sat 7:00 AM to 9:00 PM, Sun 8:00 AM to 8:00 PM</li>
       </ul>
+      <form class="form-container" action="#">
+        <h2>Stay in the Loop</h2>
+        <p>Subscribe to receive exclusive promos, seasonal menu updates, and special event invites.</p>
+        <label for="email">Email</label><br></br>
+        <input type="email" id="email" placeholder="Enter your email address"><br></br>
+        <label for="password">Password</label><br></br>
+        <input type="password" id="password" placeholder="Enter your password"><br></br>
+        <button class="btn" type="submit">Subscribe</button>
+        <div>
+            <input type="checkbox" required />
+            <span>I agree to receive promotional emails. You can unsubscribe at any time.</span>
+        </div>
     </section>
 
     <section>
@@ -37,11 +53,19 @@
       <iframe class="map" title="Map of Kisumu" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127673.89552762524!2d34.62316302001374!3d-0.1222717490648842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skisumu%20lakeside!5e0!3m2!1sen!2ske!4v1794123511158!5m2!1sen!2ske" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </section>
   </main>
-        <footer>
-            <p>&copy; 2026 Jiko Bora Cafe, Kisumu</p>
-            <p>Call us:<a href="tel: +254700000000">+254700000000</a></p>
-            <a href="#">Policy</a>
-            <a href="#">Privacy</a>
-        </footer>
+  <footer>
+    <!-- Added div on the footer -->
+    <div class="footer-info">
+        <p>&copy; 2026 Jiko Bora Cafe, Kisumu</p>
+        <p>Call us:<a href="tel: +254700000000">+254700000000</a></p>
+    </div>
+    <!-- Added nav on the footer -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </nav>
+</footer>
     </body>
     </html>
