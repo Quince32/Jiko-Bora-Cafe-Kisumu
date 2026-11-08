@@ -7,3 +7,4 @@ A three-page responsive website for a lakeside café.
 | Date | Name | What I did |
 |------|------|------------|
 | 7 Nov 2026 | Esther | Built the Home page (index.html) |
+|8 Nov 2026  | Esther | Built menu and Contact pages, CSS and JavaScript (esther-version folder)
