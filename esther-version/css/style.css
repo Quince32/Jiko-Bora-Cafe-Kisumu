@@ -33,6 +33,21 @@ main {
   padding:  24px;
   border-radius: 8px;
 }
+/*Added login and register*/
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.register-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 h1, h2 {
   color: var(--teal);
