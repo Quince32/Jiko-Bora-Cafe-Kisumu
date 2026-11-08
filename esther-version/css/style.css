@@ -3,6 +3,7 @@
   --orange: #E8833A;
   --cream: #FFF8F0;
   --dark: #2B2B2B;
+  --font-family: 'Irish Grover', cursive;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: var(--cream);
   color: var(--dark);
+  font-family: var(--font-family);
 }
 
 
@@ -18,7 +20,6 @@ header a {
   text-decoration: none;
   font-weight: bold;
 }
-
 
 main {
   max-width: 900px;
@@ -36,14 +37,23 @@ section {
 
 footer {
   background-color: var(--teal);
-  color: white;
   text-align: center;
   padding: 20px;
 }
-
+/*Links on the footer edited them */
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
 footer a {
   color: var(--orange);
   margin: 0 10px;
+  text-decoration: none;
+}
+/* Footer info tel */
+.footer-info {
+    gap: 2rem;
+    display: flex;
 }
 
 .hero {
@@ -83,6 +93,14 @@ header {
   padding: 16px 24px;
   background-color: var(--teal);
 }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: var(--teal);
+  }
 
 #menu-toggle {
   display: block;
